@@ -15,11 +15,7 @@ When you're done editing this file, save it, commit it, and push it to your "ass
 
 ## Your work should look like this...
 
-`path/to/file.php:3`
-```php
-    if ( MY_AWESOME_CONSTANT )
-    // Constant: MY_AWESOME_CONSTANT
-```
+
 
 `path/to/file.php:42`
 ```php
