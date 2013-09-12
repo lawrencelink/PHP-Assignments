@@ -2,23 +2,22 @@
 
 
 ` php-login / 1-minimal / index.php:44`
-```php
     //Variable: $login
     //Comparison == equality
     //Function isUserLoggedIn()
+```php
     if ($login->isUserLoggedIn() == true) {
     }
 ```
 
 ` php-login / 1-minimal / classes / login.php:128`
-```php
     //Function doLogout()
     //Variable $_SESSION
     //Assignment = 
     //Function session_destroy()
     //Variable $this
     //Array messages[]
-    
+```php    
 public function doLogout()
     {
         $_SESSION = array();
@@ -27,16 +26,15 @@ public function doLogout()
         $this->messages[] = "You have been logged out.";
 
     }
-'''
+```
 
 ` php-login / 1-minimal / classes / login.php:128`
-```php
     //Function _construct()
     //Function isset()
     //Variable $_POST
     //Variable $this
     //Function registerNewUser()
-    
+```php 
 public function __construct()
     {
 
@@ -46,4 +44,4 @@ public function __construct()
 
         }
     }
-'''
+```
