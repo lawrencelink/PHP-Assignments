@@ -20,6 +20,7 @@
     }
 ``` 
 
+` guzzle / src / Guzzle / Http / EntityBody.php
 ```php
 // the code looks correctly formatted
 // code is spaced for easy reading
